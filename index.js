@@ -5,7 +5,8 @@ var http = require('http'),
     MongoClient = require('mongodb').MongoClient,
     Server = require('mongodb').Server,
     FileDriver = require('./fileDriver').FileDriver,
-    CollectionDriver = require('./collectionDriver').CollectionDriver;
+    CollectionDriver = require('./collectionDriver').CollectionDriver,
+    UserDriver = require('./userDriver').UserDriver;
 
 var app = express();
 app.set('port',process.env.PORT || 3000);
@@ -16,6 +17,7 @@ var mongoHost = 'localHost'; //A
 var mongoPort = 27017;
 var collectionDriver;
 var fileDriver;
+var userDriver;
 
 var mongoClient = new MongoClient(new Server(mongoHost, mongoPort));
 mongoClient.open(function(err, mongoClient) { //C
@@ -26,6 +28,7 @@ mongoClient.open(function(err, mongoClient) { //C
     var db = mongoClient.db("test");  //E
     collectionDriver = new CollectionDriver(db); //F
     fileDriver = new FileDriver(db);
+    userDriver = new UserDriver(db);
 });
 
 app.use(bodyParser.json());
@@ -33,7 +36,24 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/', function (req, res) {
-    res.send('<html><body><h1>Hello World</h1></body></html>');
+    res.send('<html><body><h1>This Antiloss server</h1></body></html>');
+});
+
+app.get('/login',function(req,res){
+    var username = req.query.username;
+    var password = req.query.password;
+
+    if(username && password){
+        userDriver.login(username,password,function(isSuccess){
+            res.set('Content-Type','application/json');
+            if(isSuccess){
+                res.send({'isSuccess':1});
+            }else {
+                res.send({'isSuccess':0});
+            }
+        });
+    }
+
 });
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});
@@ -64,6 +84,8 @@ function returnCollectionResults(req, res) {
         }
     };
 };
+
+
 
 app.get('/:collection/:entity', function(req, res) { //I
     var params = req.params;
