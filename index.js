@@ -6,7 +6,8 @@ var http = require('http'),
     Server = require('mongodb').Server,
     FileDriver = require('./fileDriver').FileDriver,
     CollectionDriver = require('./collectionDriver').CollectionDriver,
-    UserDriver = require('./userDriver').UserDriver;
+    UserDriver = require('./userDriver').UserDriver,
+    DeviceDriver = require('./deviceDriver').DeviceDriver;
 
 var app = express();
 app.set('port',process.env.PORT || 3000);
@@ -18,6 +19,7 @@ var mongoPort = 27017;
 var collectionDriver;
 var fileDriver;
 var userDriver;
+var deviceDriver;
 
 var mongoClient = new MongoClient(new Server(mongoHost, mongoPort));
 mongoClient.open(function(err, mongoClient) { //C
@@ -29,6 +31,7 @@ mongoClient.open(function(err, mongoClient) { //C
     collectionDriver = new CollectionDriver(db); //F
     fileDriver = new FileDriver(db);
     userDriver = new UserDriver(db);
+    deviceDriver = new DeviceDriver(db);
 });
 
 app.use(bodyParser.json());
@@ -36,24 +39,60 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/', function (req, res) {
-    res.send('<html><body><h1>This Antiloss server</h1></body></html>');
+    res.render('hello');
 });
 
 app.get('/login',function(req,res){
     var username = req.query.username;
     var password = req.query.password;
 
-    if(username && password){
-        userDriver.login(username,password,function(isSuccess){
-            res.set('Content-Type','application/json');
+    var isMobile = req.headers['ismobile'];
+
+        if(username && password){
+            userDriver.login(username,password,function(isSuccess,user){
+                //res.set('Content-Type','application/json');
+                if(isSuccess){
+                    res.send({'isSuccess':1,'user':user});
+                }else {
+                    res.send({'isSuccess':0});
+                }
+            });
+        }else{
+            res.send({'isSuccess':0});
+        }
+});
+
+app.post('/register',function(req,res){
+    var body = req.body;
+    var username = body['username']
+    var password = body['password'];
+
+    if (username && password){
+        userDriver.register(username,password,function(isSuccess){
+            //res.set('Content-Type','application/json');
             if(isSuccess){
-                res.send({'isSuccess':1});
+                res.send({'isSuccess':1,'type':'register'});
             }else {
-                res.send({'isSuccess':0});
+                res.send({'isSuccess':0,'type':'register'});
             }
         });
+    }else{
+        res.send({'isSuccess':0,'type':'register'});
     }
+});
 
+app.get('/devices/:deviceMac',function(req,res){
+    var deviceMac = req.params.deviceMac;
+    deviceDriver.getDeviceInfo(deviceMac,function(error,device){
+       if(error){
+           //res.send({'isSuccess':})
+       }
+    });
+
+});
+
+app.post('/batchGetDevices',function(req,res){
+    var devicesMac = req.body;
 });
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});

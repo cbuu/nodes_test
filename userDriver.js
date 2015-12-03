@@ -22,7 +22,8 @@ UserDriver.prototype.login = function(username,password,callback){
                 else {
                     if(doc){
                         if (username==doc.username&&password==doc.password){
-                            callback(true);
+                            callback(true,doc);
+
                         }else{
                             callback(false);
                         }
@@ -33,8 +34,21 @@ UserDriver.prototype.login = function(username,password,callback){
             });
         }
     });
-}
+};
 
+UserDriver.prototype.register = function(username,password,callback){
+    this.getCollection("user",function(error,collection){
+       if(error){
+           callback(false);
+       }else{
+            if(!username&&!password) callback(false);
+            var doc = {'username':username,'password':password,'devices':[]};
+            collection.insert(doc,function(){
+                callback(true);
+            });
+       }
+    });
+};
 
 
 exports.UserDriver = UserDriver;
