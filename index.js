@@ -52,32 +52,32 @@ app.get('/login',function(req,res){
             userDriver.login(username,password,function(isSuccess,user){
                 //res.set('Content-Type','application/json');
                 if(isSuccess){
-                    res.send({'isSuccess':1,'user':user});
+                    res.send({'isSuccess':true,'user':user});
                 }else {
-                    res.send({'isSuccess':0});
+                    res.send({'isSuccess':false});
                 }
             });
         }else{
-            res.send({'isSuccess':0});
+            res.send({'isSuccess':false});
         }
 });
 
 app.post('/register',function(req,res){
     var body = req.body;
-    var username = body['username']
+    var username = body['username'];
     var password = body['password'];
 
     if (username && password){
         userDriver.register(username,password,function(isSuccess){
             //res.set('Content-Type','application/json');
             if(isSuccess){
-                res.send({'isSuccess':1,'type':'register'});
+                res.send({'isSuccess':true,'type':'register'});
             }else {
-                res.send({'isSuccess':0,'type':'register'});
+                res.send({'isSuccess':false,'type':'register'});
             }
         });
     }else{
-        res.send({'isSuccess':0,'type':'register'});
+        res.send({'isSuccess':false,'type':'register'});
     }
 });
 
@@ -91,8 +91,28 @@ app.get('/devices/:deviceMac',function(req,res){
 
 });
 
-app.post('/batchGetDevices',function(req,res){
-    var devicesMac = req.body;
+app.post('/batchGetDevicesInfo',function(req,res){
+    var devicesMac = req.body['devicesMac'];
+    var count = devicesMac.length;
+    var devices = new Array();
+    devicesMac.forEach(function(deviceMac,index){
+        deviceDriver.getDeviceInfo(deviceMac,function(error,device){
+           if (error){
+               res.send({'isSuccees':false});
+               return ;
+           }else{
+               devices.push(device);
+           }
+            if(index==count-1) {
+                send(devices);
+            }
+        });
+    });
+
+    function send(devices) {
+        res.send({'isSuccees':true,'devices':devices});
+    }
+
 });
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});

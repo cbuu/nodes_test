@@ -16,8 +16,13 @@ DeviceDriver.prototype.getCollection = function(collectionName, callback) {
 
 
 DeviceDriver.prototype.getDeviceInfo = function(deviceMac,callback){
-  this.getCollection('devices',function(error){
-
+  this.getCollection('devices',function(error,collection){
+      if(error)callback(error);
+      else{
+          collection.findOne({'deviceMac':deviceMac}, function(error,doc){
+            callback(error,doc);
+          });
+      }
   });
 };
 
