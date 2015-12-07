@@ -95,24 +95,35 @@ app.post('/batchGetDevicesInfo',function(req,res){
     var devicesMac = req.body['devicesMac'];
     var count = devicesMac.length;
     var devices = new Array();
+    var sum = 0;
     devicesMac.forEach(function(deviceMac,index){
         deviceDriver.getDeviceInfo(deviceMac,function(error,device){
            if (error){
-               res.send({'isSuccees':false});
+               res.send({'isSuccess':false});
                return ;
            }else{
                devices.push(device);
+               sum++;
            }
-            if(index==count-1) {
+            if(sum==count) {
                 send(devices);
             }
         });
     });
 
     function send(devices) {
-        res.send({'isSuccees':true,'devices':devices});
+        res.send({'isSuccess':true,'devices':devices});
     }
 
+});
+
+app.put('/boundDevice',function(req,res){
+    var deviceMac = req.body['deviceMac'];
+    var username  = req.body['username'];
+
+    userDriver.boundDevice(deviceMac,username,function(isSuccess){
+        res.send({'isSuccess':isSuccess});
+    })
 });
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});
