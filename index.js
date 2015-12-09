@@ -38,8 +38,31 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname,'public')));
 
+
+
+
+
 app.get('/', function (req, res) {
     res.render('hello');
+});
+
+app.get('/registerDevice',function(req,res){
+    deviceDriver.getAllMac(function(error,deviceMacArr){
+        if(error)res.sendStatus(404);
+        else{
+            res.render('registerDevice',{'deviceMacArr':deviceMacArr,'title':'注册设备'});
+        }
+    });
+});
+
+app.post('/registerDevice',function(req,res){
+    var deviceMac = req.body.deviceMac;
+    deviceDriver.registerMac(deviceMac,function(error){
+       if (error) res.sendStatus(404);
+        else {
+           res.sendStatus(200);
+       }
+    });
 });
 
 app.get('/login',function(req,res){

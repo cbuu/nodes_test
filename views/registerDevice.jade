@@ -1,0 +1,19 @@
+//
+   Created by iori on 15/12/9.
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/registerDevice.css')
+    body
+        h1 注册设备Mac地址:
+        table(border=1)
+            th DeviceMac
+            th DeviceName
+            if deviceMacArr.length > 0
+                each obj in deviceMacArr
+                    tr
+                        td=obj.deviceMac
+                        td=obj.deviceName
+        form(name="registerDevice", action="/registerDevice", method="post")
+            input(type="text", name="deviceMac")
+            input(type="submit", value="注册Mac地址")
