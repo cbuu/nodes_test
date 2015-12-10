@@ -1,5 +1,21 @@
 var ObjectID = require('mongodb').ObjectID;
 
+Array.prototype.deleteElementByValue = function(varElement)
+{
+    var numDeleteIndex = -1;
+    for (var i=0; i<this.length; i++)
+    {
+        // 严格比较，即类型与数值必须同时相等。
+        if (this[i] === varElement)
+        {
+            this.splice(i, 1);
+            numDeleteIndex = i;
+            break;
+        }
+    }
+    return numDeleteIndex;
+}
+
 UserDriver = function(db) {
     this.db = db;
 };
@@ -95,6 +111,39 @@ UserDriver.prototype.boundDevice = function(mac,username,callback){
               }
            });
        }
+    });
+};
+
+UserDriver.prototype.unBoundDevice = function(mac,username,callback){
+    this.getCollection('user',function(error,collection){
+        if(error){
+            callback(false);
+        }else{
+            var whereStr = {'username':username,'devices.deviceMac':mac};
+            collection.find(whereStr).toArray(function(error,results){
+                if (error){
+                    callback(false);
+                }else{
+                    if (results.length == 0){
+                        callback(true)
+                    }else{
+                        var whereStr2 = {'username':username};
+                        collection.find(whereStr2).toArray(function(error,results){
+                            var obj = results[0];
+                            obj.devices.deleteElementByValue(mac);
+                            collection.save(obj,function(error){
+                                if (error){
+                                    callback(false);
+                                }else{
+                                    callback(true);
+                                }
+                            });
+                        })
+
+                    }
+                }
+            });
+        }
     });
 };
 
