@@ -1,19 +1,22 @@
 var ObjectID = require('mongodb').ObjectID;
 
-Array.prototype.deleteElementByValue = function(varElement)
+Array.prototype.deleteElementByValue = function(varElement,callback)
 {
-    var numDeleteIndex = -1;
+    var sum = 0;
     for (var i=0; i<this.length; i++)
     {
-        // 严格比较，即类型与数值必须同时相等。
-        if (this[i] === varElement)
+        // 严格比较，即类型与数值必须同时相
+        sum++;
+        var str =this[i].deviceMac;
+        if ( str === varElement)
         {
-            this.splice(i, 1);
-            numDeleteIndex = i;
+           callback(i);
             break;
         }
+        if(sum==this.length)
+            callback(-1);
     }
-    return numDeleteIndex;
+
 }
 
 UserDriver = function(db) {
@@ -130,14 +133,22 @@ UserDriver.prototype.unBoundDevice = function(mac,username,callback){
                         var whereStr2 = {'username':username};
                         collection.find(whereStr2).toArray(function(error,results){
                             var obj = results[0];
-                            obj.devices.deleteElementByValue(mac);
-                            collection.save(obj,function(error){
-                                if (error){
+                            obj.devices.deleteElementByValue(mac,function(i){
+                                if(i == -1){
                                     callback(false);
                                 }else{
-                                    callback(true);
+                                    obj.devices.splice(i,1);
+                                    collection.save(obj,function(error){
+                                        if (error){
+                                            callback(false);
+                                        }else{
+                                            callback(true);
+                                        }
+                                    });
                                 }
+
                             });
+
                         })
 
                     }
