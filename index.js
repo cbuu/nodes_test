@@ -158,6 +158,7 @@ app.delete('/unBoundDevice',function(req,res){
     });
 });
 
+app.post('/images',function(req,res){fileDriver.handleImageUploadRequest(req,res)});
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});
 

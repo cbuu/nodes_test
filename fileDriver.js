@@ -89,4 +89,19 @@ FileDriver.prototype.handleUploadRequest = function(req, res) { //1
 	});
 };
 
+FileDriver.prototype.handleImageUploadRequest = function(req,res){
+	var type = req.get('content-type');
+	var ext = type.substr(type.indexOf('/')+1);
+	if (ext) {ext = '.' + ext; } else {ext = '';}
+	var filename = __dirname + '/uploads/' + Date.now() +ext;
+	var writable = fs.createWriteStream(filename); //7
+	req.pipe(writable); //8
+	req.on('end', function (){ //9
+		res.status(201).send({'imagePath':filename});
+	});
+	writable.on('error', function(err) { //10
+		res.status(500).send(err);
+	});
+}
+
 exports.FileDriver = FileDriver;
