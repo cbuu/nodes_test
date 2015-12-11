@@ -149,7 +149,7 @@ app.put('/boundDevice',function(req,res){
     })
 });
 
-app.delete('/unBoundDevice',function(req.res){
+app.delete('/unBoundDevice',function(req,res){
     var deviceMac = req.body['deviceMac'];
     var username  = req.body['username'];
 
