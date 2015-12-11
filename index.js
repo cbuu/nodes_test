@@ -149,6 +149,14 @@ app.put('/boundDevice',function(req,res){
     })
 });
 
+app.delete('/unBoundDevice',function(req.res){
+    var deviceMac = req.body['deviceMac'];
+    var username  = req.body['username'];
+
+    userDriver.unBoundDevice(deviceMac,username,function(isSuccess){
+        res.send({'isSuccess':isSuccess});
+    });
+});
 
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});
