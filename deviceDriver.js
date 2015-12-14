@@ -58,4 +58,31 @@ DeviceDriver.prototype.registerMac = function(deviceMac,callback){
     })
 };
 
+DeviceDriver.prototype.updateDeviceHandler = function(req,res){
+    var body = req.body;
+    var deviceMac = body.deviceMac;
+    var deviceName = body.deviceName;
+    var imagePath = body.imagePath;
+    this.getCollection('devices',function(error,collection){
+        if (error)
+            callback(false);
+        else{
+            collection.findOne({'deviceMac':deviceMac}, function(error,doc){
+                if(error)callback(false);
+                else{
+                    if (null != deviceName) doc.deviceName = deviceName;
+                    if (null != imagePath)  doc.image = imagePath;
+                    collection.save(doc,function(error){
+                        if (error){
+                            res.send({'isSuccess':false});
+                        }else{
+                            res.send({'isSuccess':true});
+                        }
+                    });
+                }
+            });
+        }
+    });
+};
+
 exports.DeviceDriver = DeviceDriver;

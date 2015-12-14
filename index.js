@@ -158,7 +158,11 @@ app.delete('/unBoundDevice',function(req,res){
     });
 });
 
-app.post('/images',function(req,res){fileDriver.handleImageUploadRequest(req,res)});
+app.post('/images',function(req,res){fileDriver.handleImageUploadRequest(req,res);});
+
+app.put('/updateDevice',function(req,res){deviceDriver.updateDeviceHandler(req,res);});
+
+app.get('/download',function(req,res){fileDriver.downloadImage(req,res);});
 
 app.post('/files', function(req,res) {fileDriver.handleUploadRequest(req,res);});
 

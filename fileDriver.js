@@ -60,6 +60,11 @@ FileDriver.prototype.save = function(obj, callback) { //1
 	});
 };
 
+FileDriver.prototype.downloadImage = function (req,res) {
+	var imagePath = req.query.imagePath;
+	res.sendFile(imagePath);
+};
+
 FileDriver.prototype.getNewFileId = function(newobj, callback) { //2
 	this.save(newobj, function(err,obj) {
 		if (err) { callback(err); }
@@ -93,10 +98,10 @@ FileDriver.prototype.handleImageUploadRequest = function(req,res){
 	var type = req.get('content-type');
 	var ext = type.substr(type.indexOf('/')+1);
 	if (ext) {ext = '.' + ext; } else {ext = '';}
-	var filename = __dirname + '/uploads/' + Date.now() +ext;
-	var writable = fs.createWriteStream(filename); //7
-	req.pipe(writable); //8
-	req.on('end', function (){ //9
+	var filename = __dirname + '/uploads/'+ Date.now() +ext;
+	var writable = fs.createWriteStream(filename);
+	req.pipe(writable);
+	req.on('end', function (){
 		res.status(201).send({'imagePath':filename});
 	});
 	writable.on('error', function(err) { //10
