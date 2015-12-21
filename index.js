@@ -12,7 +12,7 @@ var http = require('http'),
 var app = express();
 app.set('port',process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'ejs');
 
 var mongoHost = 'localHost'; //A
 var mongoPort = 27017;
