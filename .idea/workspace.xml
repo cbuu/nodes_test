@@ -1,11 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d5ac6d0-aff4-4cc0-868e-3233dd377bea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="0d5ac6d0-aff4-4cc0-868e-3233dd377bea" name="Default" comment="debug!">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/1450065217747.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/Jakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/comments.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/comments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/consecutive-tags.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/consecutive-tags.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/double-quote.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/double-quote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/error.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/fail.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/hello-world.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-abspath.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-simple.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.css.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_cache.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.css.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_cache.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/bom.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/menu-item.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/menu/item.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/literal.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/literal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu_preprocessor.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu_preprocessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu_var.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/messed.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/messed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.mixed.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.mixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.semicolons.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.semicolons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/para.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/pet.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/rmWhitespace.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/rmWhitespace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/single-quote.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/single-quote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/space-and-tab-slurp.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/space-and-tab-slurp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/user-no-with.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/user.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/with-context.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/tmp/include.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/tmp/include_preprocessor.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/tmp/renderFile.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/5657ff8e15fc178310423fc2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deviceDriver.js" afterPath="$PROJECT_DIR$/deviceDriver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,63 +103,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03731343">
-              <caret line="117" column="81" selection-start-line="117" selection-start-column="81" selection-end-line="117" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/hello.jade">
+      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/hello.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/hello.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deviceDriver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deviceDriver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -91,28 +126,48 @@
       <file leaf-file-name="data.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/data.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4444447">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userDriver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userDriver.js">
+      <file leaf-file-name="registerDevice.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/registerDevice.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="77" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.4651163">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fileDriver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileDriver.js">
+      <file leaf-file-name="registerDevice.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/registerDevice.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state vertical-scroll-proportion="3.125">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/hello.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/hello.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4444447">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -122,7 +177,27 @@
         <entry file="file://$PROJECT_DIR$/collectionDriver.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ejs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/ejs/ejs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,14 +210,20 @@
       <list>
         <option value="Json" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Jade File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
+        <option value="Ejs" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,16 +231,21 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
         <option value="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/index.js" />
-        <option value="$PROJECT_DIR$/fileDriver.js" />
         <option value="$PROJECT_DIR$/collectionDriver.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/login.html" />
         <option value="$PROJECT_DIR$/views/login.jade" />
-        <option value="$PROJECT_DIR$/views/hello.jade" />
         <option value="$PROJECT_DIR$/public/stylesheets/hello.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/registerDevice.css" />
+        <option value="$PROJECT_DIR$/views/registerDevice.jade" />
+        <option value="$PROJECT_DIR$/views/hello.jade" />
         <option value="$PROJECT_DIR$/userDriver.js" />
         <option value="$PROJECT_DIR$/deviceDriver.js" />
+        <option value="$PROJECT_DIR$/fileDriver.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/hello.ejs" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/views/registerDevice.ejs" />
       </list>
     </option>
   </component>
@@ -171,7 +257,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="707" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -180,7 +266,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -198,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,10 +349,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,6 +415,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
     <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
@@ -388,31 +517,97 @@
       <option name="project" value="LOCAL" />
       <updated>1449144189389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="忘了">
+      <created>1449458532337</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449458532337</updated>
+    </task>
+    <task id="LOCAL-00005" summary="debug!">
+      <created>1449482695115</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449482695115</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加设备注册Mac页面">
+      <created>1449644927093</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1449644927093</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加解绑接口">
+      <created>1449747878867</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1449747878867</updated>
+    </task>
+    <task id="LOCAL-00008" summary="m">
+      <created>1449806352698</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1449806352698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="debug!">
+      <created>1449806738630</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1449806738630</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完善解绑功能">
+      <created>1449808479506</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449808479506</updated>
+    </task>
+    <task id="LOCAL-00011" summary="实现文件上传功能">
+      <created>1449826562294</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1449826562294</updated>
+    </task>
+    <task id="LOCAL-00012" summary="增加图片下载功能">
+      <created>1450071207086</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1450071207086</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change view energine to ejs">
+      <created>1450700287922</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1450700287922</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ejs!">
+      <created>1450774625239</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1450774625239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="707" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260188" sideWeight="0.5375" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31790122" sideWeight="0.58125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260188" sideWeight="0.4625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31790122" sideWeight="0.41875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36520377" sideWeight="0.478125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2503888" sideWeight="0.453125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -430,90 +625,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现登录功能" />
     <MESSAGE value="添加硬件设备接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加硬件设备接口" />
+    <MESSAGE value="忘了" />
+    <MESSAGE value="增加设备注册Mac页面" />
+    <MESSAGE value="增加解绑接口" />
+    <MESSAGE value="m" />
+    <MESSAGE value="debug!" />
+    <MESSAGE value="完善解绑功能" />
+    <MESSAGE value="实现文件上传功能" />
+    <MESSAGE value="增加图片下载功能" />
+    <MESSAGE value="change view energine to ejs" />
+    <MESSAGE value="ejs!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejs!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="38" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/userDriver.js</url>
+          <line>140</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/userDriver.js</url>
+          <line>137</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/data.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userDriver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileDriver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collectionDriver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/data.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,84 +892,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03731343">
-          <caret line="117" column="81" selection-start-line="117" selection-start-column="81" selection-end-line="117" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/hello.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deviceDriver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/data.jade">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/registerDevice.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userDriver.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="77" />
-          <folding />
+          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/404.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fileDriver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <caret line="94" column="2" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deviceDriver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userDriver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="109" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ejs/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8058968">
+          <caret line="578" column="16" selection-start-line="578" selection-start-column="16" selection-end-line="578" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collectionDriver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/hello.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/hello.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registerDevice.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.125">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/data.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registerDevice.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4651163">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
