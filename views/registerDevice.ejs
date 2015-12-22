@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>注册设备Mac地址</title>
 
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
 
@@ -16,16 +16,25 @@
     <![endif]-->
 </head>
 <body>
-<h1><%title%></h1>
+<h1><%= title %></h1>
 <table class="table table-striped">
     <th>DeviceMac</th>
     <th>DeviceName</th>
-    <tr>
-        <td>wocao</td>
-        <td>wocao</td>
-    </tr>
-
+    <% for(var i = 0;i<deviceMacArr.length;i++){ %>
+        <tr>
+            <td><%= deviceMacArr[i].deviceMac %></td>
+            <td><%= deviceMacArr[i].deviceName %></td>
+        </tr>
+    <% } %>
 </table>
+
+<form name="registerDevice", action="/registerDevice", method="post">
+    <div class="form-group">
+        <label for="mac">Device Mac :</label>
+        <input type="text" name="deviceMac" class="form-control" id="mac" placeholder="device mac">
+    </div>
+    <button type="submit" class="btn btn-default">注册Mac地址</button>
+</form>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/javascripts/jquery-1.11.3.min.js"></script>
