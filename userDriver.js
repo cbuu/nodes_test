@@ -42,7 +42,6 @@ UserDriver.prototype.login = function(username,password,callback){
                     if(doc){
                         if (username==doc.username&&password==doc.password){
                             callback(true,doc);
-
                         }else{
                             callback(false);
                         }
@@ -81,6 +80,37 @@ UserDriver.prototype.register = function(username,password,callback){
             }
 
        }
+    });
+};
+
+UserDriver.prototype.saveUserInfoHandler = function(req,res){
+    var userInfo = req.body;
+    var username = userInfo.username;
+    var teleNum  = userInfo.teleNum;
+
+    this.getCollection('user',function(error,collection){
+        if(error){
+            callback(false);
+        }else{
+            collection.findOne({'username':username}, function(error,doc) {
+                if (error)
+                    callback(false);
+                else {
+                    if(doc){
+                        doc.teleNum = teleNum;
+                        collection.save(doc,function(error){
+                            if(error) {
+                                res.send({'isSuccess':false});
+                            }else{
+                                res.send({'isSuccess':true});
+                            }
+                        });
+                    }else{
+                        callback(false);
+                    }
+                }
+            });
+        }
     });
 };
 

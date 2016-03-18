@@ -109,6 +109,8 @@ app.post('/register',function(req,res){
     }
 });
 
+app.post('/saveUserInfo',function(req,res){userDriver.saveUserInfoHandler(req,res);});
+
 app.get('/devices/:deviceMac',function(req,res){
     var deviceMac = req.params.deviceMac;
     deviceDriver.getDeviceInfo(deviceMac,function(error,device){
