@@ -58,7 +58,30 @@ DeviceDriver.prototype.registerMac = function(deviceMac,callback){
     })
 };
 
-DeviceDriver.prototype.updateDeviceHandler = function(req,res){
+DeviceDriver.prototype.isRegisteredHandler = function (req,res,callback) {
+    var mac = req.query.mac;
+
+    this.getCollection('devices',function(error,collection){
+        if(error){
+
+        }else{
+            collection.findOne({'deviceMac':mac},function(error,doc){
+                if(error){
+                    res.send({'isRegistered':false});
+                }else{
+                    if(doc){
+                        res.send({'isRegistered':true});
+                    }else{
+                        res.send({'isRegistered':false});
+                    }
+                }
+            });
+        }
+
+    });
+}
+
+DeviceDriver.prototype.updateDeviceHandler = function(req,res,callback){
     var body = req.body;
     var deviceMac = body.deviceMac;
     var deviceName = body.deviceName;

@@ -147,6 +147,8 @@ app.post('/batchGetDevicesInfo',function(req,res){
 
 });
 
+app.get('/isDeviceRegistered',function(req,res){deviceDriver.isRegisteredHandler(req,res);});
+
 app.put('/boundDevice',function(req,res){
     var deviceMac = req.body['deviceMac'];
     var username  = req.body['username'];
